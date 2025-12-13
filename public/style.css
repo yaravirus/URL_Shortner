@@ -1,0 +1,91 @@
+/* Basic Page Styling */
+body {
+        font-family: Arial, sans-serif;
+        background: #f4f7ff;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    /* Container Box */
+    .container {
+        background: #ffffff;
+        padding: 25px 35px;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        width: 350px;
+    }
+    
+    /* Title Styles */
+    .container h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+    }
+    
+    /* Form Elements */
+    form div {
+        margin-bottom: 15px;
+    }
+    
+    label {
+        font-size: 14px;
+        color: #444;
+    }
+    
+    input {
+        width: 100%;
+        padding: 8px 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        outline: none;
+        transition: 0.2s;
+    }
+    
+    input:focus {
+        border-color: #4e73df;
+        box-shadow: 0 0 4px rgba(78, 115, 223, 0.4);
+    }
+    
+    /* Button Design */
+    button {
+        width: 100%;
+        padding: 10px;
+        background: #4e73df;
+        border: none;
+        color: white;
+        font-size: 15px;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+    
+    button:hover {
+        background: #2e59d9;
+    }
+    
+    /* Shortened URLs List */
+    h2 {
+        margin-top: 25px;
+        color: #222;
+        text-align: center;
+    }
+    
+    #shortened-urls {
+        list-style: none;
+        padding: 0;
+    }
+    
+    #shortened-urls li {
+        padding: 10px;
+        background: #eef1ff;
+        margin-bottom: 10px;
+        border-radius: 6px;
+        font-size: 14px;
+        word-break: break-all;
+    }
+    

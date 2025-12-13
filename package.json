@@ -1,0 +1,18 @@
+{
+  "name": "urlshortner",
+   "main":"app.js",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "scripts":{
+    "dev":"node --watch app.js",
+    "start":"node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license":"ISC",
+  "description": "",
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
