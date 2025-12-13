@@ -1,6 +1,7 @@
 {
   "name": "urlshortner",
    "main":"app.js",
+   "type":"module",
   "devDependencies": {
     "@types/bun": "latest"
   },
